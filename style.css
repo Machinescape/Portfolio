@@ -1,6 +1,8 @@
 /*CSS reset settings here*/
 
 /* defining body parameters - ensuring no inherited margins and paddings*/
+
+
 body{
     margin: 0%;
     padding: 0%;
@@ -243,6 +245,22 @@ div.stripe_rib>h3{
     display:inline-block;
 }
 
+.stripe_description{
+    display: block;
+    text-align: center;
+    margin: 2% 2% 5% 2%;
+    padding-bottom: 5%;
+}
+
+.stripe_description>p{
+    display: inline;
+    text-align: center;
+    border-radius: 5px;
+    border: black 2px solid;
+    background-color: forestgreen;
+    color: white;
+}
+
 /* defiing and styling the footer elements */
 
 #contact_details{
@@ -268,29 +286,29 @@ div.stripe_rib>h3{
 .social_media{
     height: 3%;
     max-width: 100%;
-    margin: 0%;
     padding: 0%; 
     display: block;
-    padding-left: 3%;
+    align-content: center;
+}
+
+#align_me{
+    margin-left: 35%;
+    margin-top: 1%;
 }
 
 .icon_link_container {
     display: inline;
 }
 
-.icon_container{
-    max-height: 5%;
-    max-width: 2%;
-    display: inline;
-}
-
 .social_icons{
     max-height: 20px;
     max-width: 20px;
+    display: inline;
 }
 
-.social_links_container{
-    max-height: 1%;
+.social_links{
+    max-height: 20px;
+    max-width: 20px;
     display: inline;
 }
 
