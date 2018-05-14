@@ -1,0 +1,301 @@
+/*CSS reset settings here*/
+
+/* defining body parameters - ensuring no inherited margins and paddings*/
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* defining 'overall container' parameters. The margin centers the website around the screen  */
+#wrapper{
+height: 100%;
+width: 95%;
+margin: 2.5% 2.5% 2.5% 2.5%;
+padding: 0%;
+}
+
+/* defining the key building blocks of the website - header, banner and footer */
+
+header{
+    background-color: rgb(243, 241, 241);
+    height: 5%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;      
+   }
+
+#banner{
+    background-color: rgba(17, 1, 17, 0.61);
+    height:90%;
+    width: 100%;
+    margin: 0%; 
+}
+
+footer{
+    background-color: rgb(243, 241, 241);
+    height: 5%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;   
+}
+
+
+/* styling the header segments */
+
+#name{
+    display: inline-block;
+    align-content: left;
+    height: 5%;
+    margin: 0%;
+    padding: 0%;
+    vertical-align: middle;   
+}
+
+#appalation{
+    float: right;
+    align-content: right; 
+    height: 5%;
+    margin: 0%;
+    padding: 0%;
+    vertical-align: middle; 
+}
+
+/* dividing the banner into two segments - upper and lower segments */
+
+#upper_banner{
+    max-height: 34%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+    overflow: auto;
+}
+
+#lower_banner{
+    max-height: 66%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+}
+
+/* styling the upper banner segments - potrait (left upper banner) and article (right upper banner) */
+
+#potrait_container{
+    max-height:100%;
+    max-width:37%;
+    margin: 2.5%;
+    border: rgb(243, 241, 241) solid 5px;
+    float: left;  
+}
+
+#potrait{
+    max-height:100%;
+    max-width:100%;
+    display: inline-block;
+}
+
+#right_upper_banner{
+    height:100%;
+    width:50%;
+    margin: 2.5%;
+    float: right; 
+}
+
+.topic{
+    height: 20%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+    font-size: 130%;
+    color: rgb(243, 241, 241);
+    background-color: rgb(77, 76, 76);
+}
+
+article{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(243, 241, 241);
+    color: black;
+}
+
+#blurb{
+    height: 80%;
+}
+
+article#blurb>p{
+    margin-top: 0%;
+    margin-bottom: 3%;
+    line-height: 140%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 140%;  
+}
+
+article>a{
+    font-size: 150%; 
+    color: black;
+}
+
+div>h2{
+    margin: 0% 0% 0% 5%;
+    padding: 0%;
+    line-height: 100%;
+    text-align: left;
+}
+
+/* dividing and styling the lower banner into vertical stripes */
+.stripes{
+    height: 100%;
+    max-width: 30%;
+    margin:0%;
+    padding:0%;
+    display: inline-block;
+}
+
+/* positioning each stripe */
+
+#left_stripe{
+    margin: 0% 0% 0% 2.5%;
+    float: left;
+}
+
+#right_stripe{
+    margin: 0% 2.5% 0% 0%;
+    float: right;
+}
+
+#center_stripe{
+    margin: 0% 0% 0% 2.5%;
+}
+
+/* creating and styling the different segments/classes of each stripe */
+
+.stripe_topic{
+    height: 5%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-size: 130%;
+    text-align: left;
+    color: rgb(243, 241, 241);
+    background-color: rgb(77, 76, 76);
+}
+
+.stripe_images_container{
+    max-height: 30%;
+    max-width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.stipe_images{
+    max-height:100%;
+    max-width:100%;
+    display: inline-block;  
+}
+
+.work_detail{
+    height: 152px;
+    width:100%;
+    display: inline-block;
+}
+
+article.work_detail>p{
+    margin-top: 0%;
+    margin-bottom: 3%;
+    line-height: 110%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 110%;
+}
+
+.stripe_rib{
+    height: 5%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+    color: rgb(243, 241, 241);
+    background-color: rgb(77, 76, 76);  
+}
+
+div.stripe_rib>h3{
+    margin: 0% 0% 0% 5%;
+    padding: 0%;
+    font-size: 150%;
+}
+
+.stripe_bottom{
+    max-height: 152px;
+    max-width: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(243, 241, 241);
+}
+
+.stripe_thumbnails{
+    height: 5%;
+    width: 5%;
+    display:inline-block;
+}
+
+/* defiing and styling the footer elements */
+
+#contact_details{
+    height: 2%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%; 
+    display: block;
+    text-align: center;
+}
+
+#email{
+    display: inline;
+    padding-right: 1%;
+    border-right: rgb(102, 90, 90) solid;
+}
+
+#phone{
+    display: inline;
+    margin-left: 1%;
+}
+
+.social_media{
+    height: 3%;
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%; 
+    display: block;
+    padding-left: 3%;
+}
+
+.icon_link_container {
+    display: inline;
+}
+
+.icon_container{
+    max-height: 5%;
+    max-width: 2%;
+    display: inline;
+}
+
+.social_icons{
+    max-height: 20px;
+    max-width: 20px;
+}
+
+.social_links_container{
+    max-height: 1%;
+    display: inline;
+}
+
+
+
+
+
+
